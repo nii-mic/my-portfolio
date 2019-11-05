@@ -5,22 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>初めてのgithub pages</title>
+    <title>nii-micのポートフォリオ</title>
     <style>
-        /* リセットCSS */
+        /* 文字コード */
+        @charset "utf-8";
+
+        /* デフォルトのクリア */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            vertical-align: bottom;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin-top: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
         li {
             list-style: none;
         }
 
+
         a {
-            color: black;
             text-decoration: none;
+            color: black;
         }
+
 
         /* ヘッダー */
         header {
             height: 100px;
             background-color: rgba(137, 218, 89, 0.7);
+            position: fixed;
+            width: 100%;
         }
 
         .container {
@@ -48,6 +79,37 @@
         .wrap {
             clear: both;
         }
+
+        /* フッター */
+        footer {
+            height: 80px;
+            background-color: #808d9e;
+        }
+
+
+        .footer-menu {
+            font-size: 20px;
+            float: right;
+        }
+
+        .footer-menu-item {
+            margin: 0px;
+            float: left;
+            padding: 0 20px;
+            opacity: 0.4;
+        }
+
+        .footer-menu-item:hover {
+            opacity: 1;
+        }
+
+        .copyright {
+            clear: both;
+            opacity: 0.7;
+            font-size: 15px;
+            text-align: center;
+            padding-top: 25px;
+        }
     </style>
 </head>
 
@@ -57,9 +119,8 @@
             <div class="header-logo"><a href="#">NII-MIC</a></div>
             <nav>
                 <ul class="nav-bar">
-                    <li class="nav-item"><a href="#">About</a></li>
-                    <li class="nav-item"><a href="#">Works</a></li>
-                    <li class="nav-item"><a href="#">Contact</a></li>
+                    <li class="nav-item"><a href="#about">About</a></li>
+                    <li class="nav-item"><a href="#works">Works</a></li>
                 </ul>
             </nav>
         </div>
@@ -69,11 +130,15 @@
             <div class="top-wrapper">
                 <canvas id="top-canvas"></canvas>
             </div>
-            <div class="about">
+            <div id="about" class="content">
                 <h1>About</h1>
+                <p>ご訪問ありがとうございます。このサイトは、プログラミングと編み物が好きな女子大生のポートフォリオサイトです。</p>
+
                 <div class="intro">
                     <h2>自己紹介</h2>
-                    <p>ご訪問ありがとうございます。このサイトは、プログラミングと編み物が好きな女子大生のポートフォリオサイトです。</p>
+                    <p>
+                        20歳の女子大学生です。プログラミング歴は６ヶ月、編み物歴は９ヶ月です。
+                    </p>
                 </div>
                 <div class="langs">
                     <h2>使用言語</h2>
@@ -84,15 +149,31 @@
                     </ul>
                 </div>
             </div>
-            <div class="works">
-                <div class="webgls"></div>
-                <div class="games"></div>
+            <div id="works" class="content">
+                <h1>Works</h1>
+                <p>
+                    これまで作成した作品を紹介します。
+                </p>
+                <div class="program">
+                    <h2>プログラミング</h2>
+                </div>
+                <div class="nitting">
+                    <h2>編み物</h2>
+                </div>
             </div>
-            <div class="contact"></div>
         </div>
     </div>
     <footer>
-        <div class="container"></div>
+        <div class="container">
+            <nav>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#about">About</a></li>
+                    <li class="footer-menu-item"><a href="#works">Works</a></li>
+                </ul>
+            </nav>
+            <div class="copyright">© 2019 nii-mic</div>
+
+        </div>
     </footer>
 </body>
 
