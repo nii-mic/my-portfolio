@@ -91,6 +91,15 @@ header {
     display:block;
     clear:both;
 }
+.minicontent{
+    margin-left:40px;
+}
+.minicontent h2{
+    display:inline-block;
+    border-left: 30px solid rgba(137, 218, 89, 0.5);
+    border-right: 30px solid rgba(137, 218, 89, 0.5);
+    padding-left: 10px;
+}
 /* フッター */
 footer {
     height: 80px;

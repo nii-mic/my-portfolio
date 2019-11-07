@@ -12,7 +12,7 @@ function rect(x, y) {
 }
 for (let i = 0; i < canvas.height / 100; i++) {
     for (let j = 0; j < canvas.width / 100; j++) {
-        if (i % 2 === 1 && j % 2 === 1) {
+        if (i % 2 === 0 && j % 2 === 0) {
             rect(j, i);
             rect(j - 1, i - 1);
         }
