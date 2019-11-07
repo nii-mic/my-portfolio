@@ -71,10 +71,10 @@ header {
     border-bottom: 2px solid #80bd9e;
 }
 
+/* wrap */
 .wrap {
     clear: both;
 }
-
 /* フッター */
 footer {
     height: 80px;
