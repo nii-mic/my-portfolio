@@ -96,9 +96,9 @@ header {
 }
 .minicontent h2{
     display:inline-block;
-    border-left: 30px solid rgba(137, 218, 89, 0.5);
-    border-right: 30px solid rgba(137, 218, 89, 0.5);
-    padding-left: 10px;
+    border-left: 20px solid rgba(137, 218, 89, 0.5);
+    border-right: 20px solid rgba(137, 218, 89, 0.5);
+    padding: 0 10px;
 }
 /* フッター */
 footer {
