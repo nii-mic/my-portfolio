@@ -75,6 +75,16 @@ header {
 .wrap {
     clear: both;
 }
+
+.langicon{
+    float:left;
+}
+.langicon a img{
+    height:50px;
+}
+#works{
+    clear:both;
+}
 /* フッター */
 footer {
     height: 80px;
