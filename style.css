@@ -87,9 +87,10 @@ header {
 }
 .langicon{
     float:left;
+    margin:0 30px;
 }
 .langicon a img{
-    height:50px;
+    height:100px;
 }
 .clearfix::after{
     content:"";
