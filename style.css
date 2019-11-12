@@ -39,10 +39,15 @@ a {
 
 /* ヘッダー */
 header {
-    height: 100px;
-    background-color: rgba(137, 218, 89, 0.7);
+    height: 60px;
+    background-color: rgba(137, 218, 89, 0.4);
     position: fixed;
     width: 100%;
+}
+
+
+.transform{
+    background-color: rgba(137, 218, 89, 0.7);
 }
 
 .container {
@@ -63,7 +68,7 @@ header {
     float: left;
     border-left: 7px solid rgb(137, 218, 89);
     padding: 0 30px;
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 20px;
 }
 
