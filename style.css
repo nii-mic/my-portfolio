@@ -100,6 +100,14 @@ header {
     border-right: 20px solid rgba(137, 218, 89, 0.5);
     padding: 0 10px;
 }
+
+.work p{
+    font-size:16px;
+}
+.work h5{
+    font-size:20px;
+}
+
 /* フッター */
 footer {
     height: 80px;
